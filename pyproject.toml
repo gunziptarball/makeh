@@ -1,12 +1,13 @@
 [tool.poetry]
 name = "makeh"
-version = "0.1.0"
+version = "0.2.0"
 description = "Online documentation for GNU Makefiles"
 authors = ["Jackson Gilman <jackson.j.gilman@gmail.com>"]
 
 [tool.poetry.dependencies]
 python = "^3.8"
 typer = "^0.3.2"
+Jinja2 = "^2.11.3"
 
 [tool.poetry.dev-dependencies]
 pytest = "^5.2"
