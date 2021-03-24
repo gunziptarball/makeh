@@ -1,5 +1,9 @@
 # `makeh` - Online documentation for GNU Makefiles
-
+<p align="center">
+  <a href="https://pypi.org/project/makeh">
+    <img alt="PyPI" src="https://img.shields.io/pypi/v/makeh">
+  </a>
+</p>
 Possibly re-inventing a wheel.  
 Looks like [this project](https://github.com/ryanvolpe/makehelp) also does something similar.
 
