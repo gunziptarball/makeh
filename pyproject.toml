@@ -3,6 +3,7 @@ name = "makeh"
 version = "0.2.0"
 description = "Online documentation for GNU Makefiles"
 authors = ["Jackson Gilman <jackson.j.gilman@gmail.com>"]
+license = "MIT"
 
 [tool.poetry.dependencies]
 python = "^3.8"
