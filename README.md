@@ -4,18 +4,19 @@
     <img alt="PyPI" src="https://img.shields.io/pypi/v/makeh">
   </a>
 </p>
+
 Possibly re-inventing a wheel.  
 Looks like [this project](https://github.com/ryanvolpe/makehelp) also does something similar.
 
 ## Usage
 
  - Requires `poetry` and Python3.8 or higher
- - Currently, this can only be built/installed from source.
 
 ```shell
-git clone https://github.com/gunziptarball/makeh && cd makeh
-poetry build
-pip install dist/*.tar.gz
+pip install makeh
+cd $SOME_PROJECT_WITH_A_MAKEFILE
+makeh
+# documentation will appear
 ```
 
 ...yes I acknowledge the irony of this project not having its own Makefile.  
