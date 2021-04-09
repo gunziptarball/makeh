@@ -1,18 +1,18 @@
 [tool.poetry]
 name = "makeh"
-version = "0.2.0"
+version = "0.3.0"
 description = "Online documentation for GNU Makefiles"
 authors = ["Jackson Gilman <jackson.j.gilman@gmail.com>"]
 license = "MIT"
 
 [tool.poetry.dependencies]
-python = "^3.8"
-typer = "^0.3.2"
+python = "^3.5"
 Jinja2 = "^2.11.3"
 
 [tool.poetry.dev-dependencies]
 pytest = "^5.2"
 PyHamcrest = "^2.0.2"
+tox = "^3.23.0"
 
 [build-system]
 requires = ["poetry-core>=1.0.0"]

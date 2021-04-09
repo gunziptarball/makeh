@@ -7,9 +7,9 @@ import re
 from makeh import __version__, Makefile
 
 
-def test_version(pytestconfig):
+def test_version():
     """Dirty test to ensure __version__ aligned with project meta"""
-    pyproject_toml = pathlib.Path(pytestconfig.rootdir / '../pyproject.toml').read_text()
+    pyproject_toml = (pathlib.Path(__file__).parent / '../pyproject.toml').read_text()
     version, = re.findall(r'\nversion\s*=\s*"(\d+\.\d+\.\d+)"\n', pyproject_toml)
     assert __version__ == version
 
