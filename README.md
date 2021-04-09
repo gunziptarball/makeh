@@ -1,5 +1,4 @@
 # `makeh` - Online documentation for GNU Makefiles
-![Travis (.org)](https://img.shields.io/travis/gunziptarball/makeh)
 ![PyPI](https://img.shields.io/pypi/v/makeh)
 ![PyPI - Python Version](https://img.shields.io/pypi/pyversions/makeh)
 
