@@ -1,4 +1,4 @@
-__version__ = '0.3.0'
+__version__ = '0.3.1'
 
 import pathlib
 import re
@@ -64,7 +64,11 @@ def run():
     import argparse
 
     argument_parser = argparse.ArgumentParser()
-    argument_parser.add_argument('makefile', default='Makefile')
+    argument_parser.add_argument(
+        '-f' '--makefile', 
+        default='Makefile', 
+        dest='makefile'
+    )
     main(argument_parser.parse_args().makefile)
 
 
